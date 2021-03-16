@@ -12,7 +12,7 @@ def getTitle(x):
     querystring = {"tconst": x}
 
     headers = {
-        'x-rapidapi-key': "e80c526649mshbd315c4225ba7d7p17ac74jsnb8c821dbcd7d",
+        'x-rapidapi-key': "",
         'x-rapidapi-host': "imdb8.p.rapidapi.com"
         }
 
@@ -29,7 +29,7 @@ def getTitle(x):
 url = "https://imdb8.p.rapidapi.com/title/get-top-rated-tv-shows"
 
 headers = {
-    'x-rapidapi-key': "e80c526649mshbd315c4225ba7d7p17ac74jsnb8c821dbcd7d",
+    'x-rapidapi-key': "",
     'x-rapidapi-host': "imdb8.p.rapidapi.com"
     }
 
@@ -49,7 +49,7 @@ url = "https://imdb8.p.rapidapi.com/title/get-most-popular-movies"
 querystring = {"homeCountry":"US","purchaseCountry":"US","currentCountry":"US"}
 
 headers = {
-    'x-rapidapi-key': "e80c526649mshbd315c4225ba7d7p17ac74jsnb8c821dbcd7d",
+    'x-rapidapi-key': "",
     'x-rapidapi-host': "imdb8.p.rapidapi.com"
     }
 
@@ -68,7 +68,7 @@ url = "https://imdb8.p.rapidapi.com/title/get-coming-soon-tv-shows"
 querystring = {"currentCountry":"US"}
 
 headers = {
-    'x-rapidapi-key': "e80c526649mshbd315c4225ba7d7p17ac74jsnb8c821dbcd7d",
+    'x-rapidapi-key': "",
     'x-rapidapi-host': "imdb8.p.rapidapi.com"
     }
 
